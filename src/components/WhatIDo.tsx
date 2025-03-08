@@ -90,8 +90,10 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+              Decentralized Application (DApp)
+              NFT Marketplace
+              Full-stack Social Media Platform
+              Real-time Collaboration Tool
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -131,8 +133,10 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+              Admin Dashboard with ShadCN UI and Acternity UI
+              Real-Time Chat Application with Acternity UI
+              Landing Page with ShadCN UI and Acternity UI
+              Music Player UI
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

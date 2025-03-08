@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+        Hello! I'm a Full-Stack Web Developer and Blockchain Developer passionate about building scalable, user-centric web applications and decentralized solutions. With expertise in both traditional web technologies and blockchain ecosystems, I bridge the gap between modern web development and the decentralized future
         </p>
       </div>
     </div>
