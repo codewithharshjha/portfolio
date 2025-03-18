@@ -88,43 +88,65 @@ const Work = () => {
       category: "Web-2",
       tools: "TypeScript, Next.js, Postgres, Prisma",
       image: "/images/mysql.webp",
-    },
-    {
-      title: "Alumini-Fubding",
-      category: "Web-2",
-      tools: "Next.js, Cloudinary, Postgress, Tailwind CSS",
-      image: "/images/AluminiFunding.png",
+      link:"http://ai-interview-nu.vercel.app"
     },
     {
       title: "Book-Walah",
       category: "Web-2",
       tools: "Next.js, Node.js,Postgress, Express",
       image: "/images/bookwala.png",
+      link:"http://kitabwalah.vercel.app"
+    },
+    {
+      title: "Fund-Transfer",
+      category: "Web-3",
+      tools: "Next.js, Node.js,Solidity, Metamask",
+      image: "/images/fund-transfer.png",
+      link:"https://fund-transfer-delta.vercel.app/"
+    },
+    {
+      title: "Alumini-Funding",
+      category: "Web-2",
+      tools: "Next.js, Cloudinary, Postgress, Tailwind CSS",
+      image: "/images/AluminiFunding.png",
+      link:"https://github.com/codewithharshjha/AluminiProject/tree/master"
+    },
+    {
+      title: "Book-Walah",
+      category: "Web-2",
+      tools: "Next.js, Node.js,Postgress, Express",
+      image: "/images/bookwala.png",
+      link:"http://kitabwalah.vercel.app"
     },
     {
       title: "NFT Marketplace",
       category: "Web-3",
       tools: "Next.js, Solidity, Web3.js, IPFS",
       image: "/images/nftmarketplace.png",
+      link:"https://github.com/codewithharshjha/NFTMarketplace"
     },
     {
       title: "Website-Builder",
       category: "Web-2",
       tools: "Next, Cloud.Api, Tailwind CSS",
       image: "/images/websitebuilder.png",
+      link:"https://github.com/codewithharshjha/WebsiteCreator"
     },
+  
     {
-      title: "Ai-interview",
-      category: "Web-2",
-      tools: "OpenSourceApi ,Clerk,Next.js",
-      image: "/images/AI-interview.jpg",
-    },
-    {
-      title: "Social-News",
+      title: "Food-Ordering",
       category: "Web-2",
       tools: "TypeScript ,Clerk,Next.js,Cloudinary",
       image: "/images/Thread.jpg",
+      link:"https://github.com/codewithharshjha/Food-Ordering"
     },
+    {
+      title: "Search-Service",
+      category: "Web-2",
+      tools: "TypeScript ,Clerk,Next.js,Cloudinary",
+      image: "/images/SearchServie.png",
+      link:'https://github.com/codewithharshjha/SearchService'
+    }
   ];
 
   useGSAP(() => {
@@ -178,6 +200,7 @@ const Work = () => {
                   <div>
                     <h4>{project.title}</h4>
                     <p>{project.category}</p>
+                    <a href={project.link}>{project.title}:Link</a>
                   </div>
                 </div>
                 <h4>Tools and features</h4>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio Website - Overview 🚀
 
 This repository contains the open source version of my 3D portfolio website. Do check it out!
@@ -72,3 +73,6 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for details.
  
 
+=======
+# portfolio
+>>>>>>> 3b6664177a466633399f5a95adf4afe46cd2cd32
